@@ -1,2 +1,2 @@
 # api_de_clubes
-consumindo api para buscar informaçoes de Times 
+consumindo api para buscar informaçoes dos Times 
