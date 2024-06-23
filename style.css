@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    padding: 1rem;
+    height: auto; /* Ajuste para altura automática */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+form input[type="text"] {
+    width: 100%; /* Ocupa toda a largura do container */
+    padding: 0.5rem; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Borda arredondada */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    transition: border-color 0.3s ease; /* Transição suave da cor da borda */
+}
+
+form input[type="text"]:focus {
+    outline: none; /* Remove o contorno ao focar */
+    border-color: #007bff; /* Cor da borda ao focar */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra de texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #251212; /* Cor do texto */
+    text-transform: uppercase; /* Transforma em maiúsculas */
+}
+
+form input[type="text"] {
+    width: 100%; /* Ocupa toda a largura do container */
+    padding: 0.5rem; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Borda arredondada */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    transition: border-color 0.3s ease; /* Transição suave da cor da borda */
+}
+
+form input[type="text"]:focus {
+    outline: none; /* Remove o contorno ao focar */
+    border-color: #007bff; /* Cor da borda ao focar */
+}
+
+form button[type="submit"] {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-top: 5px;
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+.time-info {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.time-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.time-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.time-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.time-info a:hover {
+    text-decoration: underline;
+}
