@@ -1,35 +1,54 @@
-# Sistema CRUD em PHP Puro
+# Sistema de Informações de Times de Futebol ⚽
 
-Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP puro, utilizando Bootstrap para estilização. O objetivo principal deste sistema é gerenciar dados de forma simples e intuitiva, permitindo ao usuário realizar operações de criação, leitura, atualização e exclusão de registros sem a necessidade de um framework complexo.
+Este projeto foi desenvolvido com o objetivo de fornecer informações detalhadas sobre times de futebol. Ele permite que o usuário busque pelo nome de um time e obtenha dados como ano de fundação, estádio, capacidade, localização, site oficial e até o escudo do time. É uma ferramenta ideal para fãs de futebol que desejam conhecer mais sobre seus times favoritos ou explorar informações de novos clubes.
 
-## Objetivo
+---
 
-O objetivo deste sistema é fornecer uma solução prática e eficiente para quem deseja aprender a desenvolver sistemas básicos de gerenciamento de dados. Com ele, os usuários podem:
+## 🎯 Objetivo do Projeto
 
-- **Gerenciar registros**: Adicionar, editar, visualizar e excluir dados de maneira simples.
-- **Aprender fundamentos de PHP e MySQL**: Um exemplo prático de como conectar o PHP com um banco de dados, ideal para quem está começando a aprender.
-- **Customização fácil**: Com o uso do Bootstrap, o design é adaptável e fácil de personalizar.
+O principal objetivo deste sistema é facilitar o acesso a informações confiáveis e organizadas sobre times de futebol, promovendo a experiência do usuário com dados atualizados. Com uma interface simples e direta, o sistema atende tanto curiosos quanto pesquisadores esportivos.
 
-Este sistema é uma ótima base para iniciantes que desejam entender como funcionam os processos de CRUD em aplicações web, além de ser facilmente adaptável a diferentes tipos de dados e necessidades.
+### Benefícios para o Usuário
 
-## Funcionalidades
+- Obter informações sobre o time de forma rápida e prática.
+- Conhecer detalhes históricos e estruturais dos clubes.
+- Visualizar o escudo oficial do time e acessar seu site diretamente.
 
-- Criar: Adicionar novos registros ao sistema.
-- Ler: Visualizar a lista de registros existentes.
-- Atualizar: Editar registros existentes.
-- Deletar: Remover registros do sistema.
+---
 
-## Tecnologias Utilizadas
+## 🛠️ Funcionalidades
 
-- PHP 8
-- Bootstrap 5
-- HTML
-- CSS
-- MySQL (ou outro banco de dados utilizado)
+- Busca por nome de times.
+- Exibição de informações detalhadas:
+  - Nome do time.
+  - Ano de fundação.
+  - Nome e capacidade do estádio.
+  - Localização do time.
+  - Link para o site oficial.
+  - Escudo do time (se disponível).
+- Mensagens informativas caso o time não seja encontrado.
 
-## Como Executar
+---
 
-1. Clone o repositório:
-   bash
-   git clone https://github.com/jonathanluis2022/CRUD-
-   cd CRUD-
+## 🌐 API Utilizada
+
+O sistema utiliza a API **TheSportsDB** ([thesportsdb.com](https://www.thesportsdb.com/)) para buscar e exibir informações sobre os times de futebol.  
+
+A **TheSportsDB** é uma API voltada para esportes, fornecendo dados sobre equipes, ligas, jogadores, eventos e muito mais. Este projeto consome endpoints da API para obter dados precisos e atualizados sobre os times pesquisados.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **PHP**: Linguagem principal para a lógica do sistema.
+- **HTML**: Estrutura básica das páginas.
+- **CSS**: Estilização simples para uma boa experiência visual.
+- **TheSportsDB API**: Fonte de dados sobre times de futebol.
+
+---
+
+## 🖥️ Como Executar o Projeto
+
+1. **Clone este repositório**:
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
