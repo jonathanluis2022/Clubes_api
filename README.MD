@@ -46,4 +46,4 @@ Endpoint: /api/v1/js/api/v1/json/3/searchteams.php
 
 1. **Clone este repositório**:
 
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/jonathanluis2022/Clubes_api.git
