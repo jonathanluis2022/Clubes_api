@@ -1,0 +1,52 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Fundo claro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texto escuro */
+}
+
+/* Container principal */
+.container {
+    max-width: 600px; /* Largura máxima */
+    margin: 20px auto; /* Centralizar na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaço abaixo */
+    text-align: center; /* Centralizar */
+    color: #007bff; /* Cor azul */
+}
+
+/* Formulário */
+form {
+    display: flex; /* Alinhar itens horizontalmente */
+    flex-direction: column; /* Dispor itens em coluna */
+    gap: 10px; /* Espaço entre os itens */
+}
+
+label {
+    font-weight: bold; /* Negrito no texto */
+    font-size: 14px; /* Tamanho pequeno */
+}
+
+input[type="text"] {
+    padding: 10px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    width: 100%; /* Largura total */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: white; /* Texto branco */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da font
