@@ -1,14 +1,13 @@
-# Sistema de Informações de Times de Futebol ⚽
+# Sistema de Pesquisa, Times de Futebol ⚽
 
-Este projeto foi desenvolvido com o objetivo de fornecer informações detalhadas sobre times de futebol. Ele permite que o usuário busque pelo nome de um time e obtenha dados como ano de fundação, estádio, capacidade, localização, site oficial e até o escudo do time. É uma ferramenta ideal para fãs de futebol que desejam conhecer mais sobre seus times favoritos ou explorar informações de novos clubes.
-
+Este projeto foi desenvolvido com o objetivo de fornecer informações sobre times de futebol. Ele permite que o usuário busque pelo nome de um time e obtenha dados como ano de fundação, estádio, capacidade, localização, site oficial e até o escudo do time.
 ---
 
 ## 🎯 Objetivo do Projeto
 
 O principal objetivo deste sistema é facilitar o acesso a informações confiáveis e organizadas sobre times de futebol, promovendo a experiência do usuário com dados atualizados. Com uma interface simples e direta, o sistema atende tanto curiosos quanto pesquisadores esportivos.
 
-### Benefícios para o Usuário
+### Ajuda e resolve o que ?
 
 - Obter informações sobre o time de forma rápida e prática.
 - Conhecer detalhes históricos e estruturais dos clubes.
